@@ -12,7 +12,8 @@ body {
 
 img {
     display: block;
-    height: 50vw;
+    height: 50vh;
+    width: auto;
     position: relative;
     z-index: 3;
 }
