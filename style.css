@@ -1,0 +1,52 @@
+html {
+    background: #1B171B;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    height: 50vw;
+    position: relative;
+    z-index: 3;
+}
+
+@media screen and (orientation: portrait) {
+    img {
+        height: auto;
+        width: 50vw;
+    }
+}
+
+.wrapper {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper:before {
+    content: "";
+    background: radial-gradient(500px circle at var(--mouse-x) var(--mouse-y), rgba(104, 52, 144, 0.2), transparent);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.wrapper:hover:before {
+    opacity: 1;
+}
