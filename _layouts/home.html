@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body class="home-bg">
+
+    <header class="header-home">
+        <a href="/">Seventh Disorder</a>
+    </header>
+
+    <main class="home page-content" aria-label="Content">
+      <div class="wrapper">
+        <div class="logo-glitch">
+          <div class="logo-glitch__image"></div>
+          <div class="logo-glitch__image"></div>
+        </div>
+        
+        {%- include navigation.html -%}
+
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
