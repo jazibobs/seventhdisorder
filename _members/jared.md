@@ -1,5 +1,4 @@
 ---
 name: Jared Rigby
-position: Bit Shifter
+position: Coding
 ---
-Jared is a software developer originally from the UK and currently based in Beijing.

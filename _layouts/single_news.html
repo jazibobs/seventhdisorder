@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body>
+
+    {%- include header.html -%}
+
+
+    <main class="page-content single-news" aria-label="Content">
+      <div class="wrapper">
+        <h1>{{ page.title }}</h1>
+        <small>{{ page.date | date: "%-d %B %Y" }} - Posted by: {{ page.author }}</small>
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

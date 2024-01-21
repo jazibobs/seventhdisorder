@@ -12,17 +12,16 @@
         <h1>{{ page.title }}</h1>
         {{ content }}
 
-        <ul class="team-bios">
-          {% for member in site.members %}
-            <li>
-              <img src="{{ member.headshot}}" alt="">
-              <div>
-                <h2>{{ member.name }}</h2>
-                <h3>{{ member.position }}</h3>
-                <p>{{ member.content | markdownify }}</p>
-              </div>
-            </li>
-          {% endfor %}
+        <ul class="news">
+            {% for post in site.posts %}
+                <li>
+                    <a href="{{ post.url }}">
+                        <h2>{{ post.title }}</h2>
+                        {{ post.excerpt }}
+                        <small>{{ post.date | date: "%-d %B %Y" }}</small>
+                    </a>
+              </li>
+            {% endfor %}
         </ul>
       </div>
     </main>

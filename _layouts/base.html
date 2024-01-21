@@ -7,8 +7,8 @@
 
     {%- include header.html -%}
 
-    {% if page.boxart != empty %}
-    <img src={{ page.boxart }} alt={{ page.title }}>
+    {% if page.boxart %}
+    <img class="featured-image" src={{ page.boxart }} alt={{ page.title }}>
     {% endif %}
 
     <main class="page-content" aria-label="Content">
@@ -16,7 +16,7 @@
         <h1>{{ page.title }}</h1>
         {{ content }}
 
-        {% if page.steam_id != empty %}
+        {% if page.steam_id %}
         <iframe src="https://store.steampowered.com/widget/{{page.steam_id}}/" frameborder="0" width="800" height="190"></iframe>
         {% endif %}
       </div>
