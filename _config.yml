@@ -35,7 +35,6 @@ collections:
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
 
 social_links:
   #  - { platform: devto,          user_url: "https://dev.to/jekyll" }
