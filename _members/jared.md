@@ -1,4 +1,5 @@
 ---
 name: Jared Rigby
-position: Coding
+position: Code
+headshot: /assets/img/team/jared.jpg
 ---
