@@ -7,10 +7,10 @@
 
       
     <title>
-        {% if page.seo_title != empty %}
+        {% if page.seo_title %}
             {{ page.seo_title }}
         {% elsif page.title %}
-            {{ page.title }}
+            {{ page.title }} - {{ site.title }}
         {% else %}
             {{ site.title }}
         {% endif %}
