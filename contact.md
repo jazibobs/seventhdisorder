@@ -3,6 +3,8 @@ title: Contact us
 layout: base
 ---
 
+Seventh Disorder is an indie game studio based in London, UK with collaborators from all around the world.
+
 If you have any questions that you can't find the answer to on this website please reach out using: [games@seventhdisorder.com](mailto:games@seventhdisorder.com)
 
 ## FAQ
