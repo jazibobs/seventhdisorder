@@ -11,4 +11,4 @@ Hello everyone, we're massively proud to share the opening act of Mithra, our up
 
 This demo is available as part of Steam Next Fest 2024, please try it out and let us know your thoughts.
 
-![Some of the items you'll find in the prologue](/assets/img/team/jared.jpg)
+![Some of the items you'll find in the prologue](/assets/img/games/mithra/mithra-next-fest.jpg)
