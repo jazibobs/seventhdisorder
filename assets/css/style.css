@@ -420,6 +420,7 @@ a {
         position: relative;
         border: 2px solid #683490;
         box-shadow: 1rem 1rem 0px #420e8b;
+        margin-bottom: 4rem;
     }
 
     li:before {
@@ -445,7 +446,7 @@ a {
         text-transform: uppercase;
         font-weight: bold;
         color: #683490;
-        margin-bottom: 1rem;
+        margin: 1rem 0;
     }
 }
 
