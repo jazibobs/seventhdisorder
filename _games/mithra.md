@@ -3,7 +3,7 @@ layout: base
 name: Mithra
 platforms: PC, Steam Deck
 release: TBA 
-boxart: /assets/img/games/mithra/mithra.png
+boxart: /assets/img/games/mithra/mithra-next-fest.jpg
 steam_id: 2705650
 ---
 
